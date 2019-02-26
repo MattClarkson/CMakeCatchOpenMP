@@ -22,8 +22,7 @@ and [Dr. Matt Clarkson](https://iris.ucl.ac.uk/iris/browse/profile?upi=MJCLA42).
 Build Instructions
 ------------------
 
-This project itself can be built if you just want to test it. In Linux terms that
-would be:
+On Linux/Mac, in a terminal:
 ``` cmake
 git clone https://github.com/MattClarkson/CMakeCatchOpenMP
 mkdir CMakeCatchOpenMP-Build
@@ -31,4 +30,5 @@ cd CMakeCatchOpenMP-Build
 cmake ../CMakeCatchOpenMP
 make
 ```
+On Windows, run the CMake GUI to generate Visual Studio project files, and run the build therein.
 
