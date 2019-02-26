@@ -18,9 +18,12 @@ set(_command_line_apps
   forLoopCalculatingPi
   forLoopReductionOnSum
   introducingLocks
-  introducingTasks
   cpp11Example
 )
+
+if (NOT WIN32)
+  list(APPEND _command_line_apps introducingTasks)
+endif()
 
 foreach(_app ${_command_line_apps})
   add_executable(${_app} ${_app}.cpp)
