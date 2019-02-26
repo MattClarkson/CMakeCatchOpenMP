@@ -13,7 +13,13 @@
 #============================================================================*/
 
 set(_command_line_apps
-  mjcMyFirstApp
+  helloWorldBasic
+  helloWorldImproved
+  forLoopCalculatingPi
+  forLoopReductionOnSum
+  introducingLocks
+  introducingTasks
+  cpp11Example
 )
 
 foreach(_app ${_command_line_apps})

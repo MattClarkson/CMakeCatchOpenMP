@@ -54,7 +54,7 @@ include(mitkFunctionGetGccVersion)
 ######################################################################
 # Set main build options.
 ######################################################################
-option(BUILD_TESTING "Build Unit tests." ON)
+option(BUILD_TESTING "Build Unit tests." OFF)
 option(BUILD_SHARED_LIBS "Build Shared Libraries" OFF)
 option(CMAKECATCHMPI_USE_OPENMP "Use OpenMP." ON)
 
