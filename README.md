@@ -31,7 +31,4 @@ cd CMakeCatchOpenMP-Build
 cmake ../CMakeCatchOpenMP
 make
 ```
-But ideally, you should use this as a template to create your own project. To do so,
-please refer to the [CMakeTemplateRenamer](https://github.com/MattClarkson/CMakeTemplateRenamer)
-which will show you how to clone this repository, and rename all the variables to names of your choice.
-Then you would simply build your new project, using cmake, as shown above.
+
